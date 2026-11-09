@@ -5,7 +5,7 @@ union Data {
     float f;
     char c;
 };
-struct TaggredUnion{
+struct TaggredUnion {
     enum Type type;
     union Data data;
 };
